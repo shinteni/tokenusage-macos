@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#030814" />
+    <meta
+      name="description"
+      content="Monitor AI subscription limits, token usage, and estimated spend from your macOS menu bar."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TokenUsage — AI Usage, at a Glance" />
+    <meta
+      property="og:description"
+      content="Monitor AI subscription limits, token usage, and estimated spend from your macOS menu bar."
+    />
+    <meta
+      property="og:image"
+      content="https://shinteni.github.io/tokenusage-macos/assets/icon.png"
+    />
+    <meta property="og:url" content="https://shinteni.github.io/tokenusage-macos/" />
+    <meta name="twitter:card" content="summary" />
+    <title>TokenUsage — AI Usage, at a Glance</title>
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="apple-touch-icon" href="assets/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "TokenUsage",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "macOS 15 or later",
+        "softwareVersion": "0.1.0",
+        "downloadUrl": "https://github.com/shinteni/tokenusage-macos/releases/download/v0.1.0/TokenUsage-macOS-universal.zip",
+        "description": "A native macOS menu bar app for monitoring AI subscription limits, token usage, and estimated spend."
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="TokenUsage home">
+          <img src="assets/icon.png" alt="" width="42" height="42" />
+          <span>TokenUsage</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#features">Features</a>
+          <a href="#providers">Providers</a>
+          <a href="#install">Install</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://github.com/shinteni/tokenusage-macos">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="top">
+        <div class="hero-copy">
+          <h1>All your AI usage.<br /> One menu bar.</h1>
+          <p>
+            Track subscription limits, token activity, and estimated spend across
+            your AI tools without leaving your workflow.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://github.com/shinteni/tokenusage-macos/releases/download/v0.1.0/TokenUsage-macOS-universal.zip"
+              >Download for macOS</a
+            >
+            <a
+              class="button button-secondary"
+              href="https://github.com/shinteni/tokenusage-macos/releases/tag/v0.1.0"
+              >View release notes</a
+            >
+          </div>
+          <p class="compatibility">macOS 15+ · Apple silicon &amp; Intel · Version 0.1.0</p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="glass-frame glass-frame-back"></div>
+          <div class="glass-frame glass-frame-front">
+            <img src="assets/icon.png" alt="" width="280" height="280" />
+          </div>
+          <div class="usage-rails">
+            <span><i style="--fill: 68%"></i></span>
+            <span><i style="--fill: 46%"></i></span>
+            <span><i style="--fill: 57%"></i></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-section section" id="features">
+        <div class="shell feature-layout">
+          <img class="feature-mark" src="assets/icon.png" alt="" width="44" height="44" />
+          <div class="rail-art" aria-hidden="true">
+            <span><i style="--fill: 69%"></i></span>
+            <span><i style="--fill: 49%"></i></span>
+            <span><i style="--fill: 29%"></i></span>
+          </div>
+
+          <div class="feature-content">
+            <h2>Everything at a glance.</h2>
+            <p class="section-intro">
+              Keep limits, token history, and estimated cost close without
+              interrupting your work.
+            </p>
+
+            <ul class="feature-list">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 7h14M5 12h14M5 17h9" />
+                </svg>
+                <span>Menu bar overview</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 18V6M4 18h16M7 14l4-4 3 3 6-7" />
+                </svg>
+                <span>30-day token history</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v18M16.5 7.5c0-1.7-1.7-3-4.5-3s-4.5 1.3-4.5 3 1.6 2.6 4.5 3.5 4.5 1.8 4.5 3.5-1.7 3-4.5 3-4.5-1.3-4.5-3" />
+                </svg>
+                <span>Estimated spend</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4" />
+                </svg>
+                <span>Pacing alerts</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 20V10M12 20V4M18 20v-7" />
+                </svg>
+                <span>Custom metrics</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="4" y="4" width="6" height="6" rx="1" />
+                  <rect x="14" y="4" width="6" height="6" rx="1" />
+                  <rect x="4" y="14" width="6" height="6" rx="1" />
+                  <rect x="14" y="14" width="6" height="6" rx="1" />
+                </svg>
+                <span>Native widgets</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="providers section" id="providers">
+        <div class="shell">
+          <h2>Nine providers. One calm view.</h2>
+          <div class="provider-rail" aria-label="Supported providers">
+            <span>Antigravity</span>
+            <span>Claude</span>
+            <span>Codex</span>
+            <span>GitHub Copilot</span>
+            <span>Cursor</span>
+            <span>Devin</span>
+            <span>Grok</span>
+            <span>OpenRouter</span>
+            <span>Z.AI</span>
+          </div>
+          <p class="provider-note">
+            Local token statistics are available for Claude, Codex, Cursor, and
+            Grok. Integration depth varies by provider.
+          </p>
+        </div>
+      </section>
+
+      <section class="install section" id="install">
+        <div class="shell install-layout">
+          <h2>Install in three steps.</h2>
+          <ol class="install-steps">
+            <li><span>Download the latest ZIP</span></li>
+            <li><span>Move TokenUsage.app to Applications</span></li>
+            <li><span>Control-click the app and choose Open</span></li>
+          </ol>
+          <p class="release-warning">
+            Version 0.1.0 is ad-hoc signed and not notarized, so macOS may show a
+            Gatekeeper warning on first launch.
+          </p>
+        </div>
+      </section>
+
+      <section class="faq section" id="faq">
+        <div class="shell faq-inner">
+          <h2>Good to know.</h2>
+          <details open>
+            <summary>Which macOS versions are supported?</summary>
+            <p>macOS 15 or later on Apple silicon and Intel Macs.</p>
+          </details>
+          <details open>
+            <summary>Where does usage data come from?</summary>
+            <p>
+              Token statistics may use local CLI history; some integrations
+              contact provider services.
+            </p>
+          </details>
+          <details open>
+            <summary>Is source code included?</summary>
+            <p>
+              No. This repository contains product documentation and prebuilt
+              releases.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="shell final-cta-inner">
+          <img src="assets/icon.png" alt="TokenUsage app icon" width="152" height="152" />
+          <div>
+            <h2>Keep every AI limit in sight.</h2>
+            <a
+              class="button button-primary"
+              href="https://github.com/shinteni/tokenusage-macos/releases/download/v0.1.0/TokenUsage-macOS-universal.zip"
+              >Download TokenUsage 0.1.0</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-inner">
+        <a href="https://github.com/shinteni/tokenusage-macos/releases/tag/v0.1.0">Release notes</a>
+        <a href="https://github.com/shinteni/tokenusage-macos/issues/new/choose">Report an issue</a>
+        <a href="https://github.com/shinteni/tokenusage-macos">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
